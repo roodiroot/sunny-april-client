@@ -1,0 +1,21 @@
+.newProducts{
+    width: 100%;
+    
+    .newList {
+        padding: 35px 5px;
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px;
+
+    }
+}
+.hitProducts {
+    width: 100%;
+    .HITList {
+        padding: 35px 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}

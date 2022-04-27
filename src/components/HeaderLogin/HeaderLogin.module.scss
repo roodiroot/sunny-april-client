@@ -1,0 +1,28 @@
+.HeaderRegister {
+    height: 74px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fedback {
+    display: flex;
+    align-items: center;
+    .fedbackItem {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #acacac;
+        margin-left: 0.5em;
+        transition: all .1s linear;
+    }
+    .icon::before {
+        color: #acacac;
+        font-size: 11px;
+    }
+}
+.fedback:hover .fedbackItem, .icon::before {
+    color: #555555;
+}

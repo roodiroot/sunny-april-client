@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .minus, .plas {
+        position: relative;
+        display: inline-block;
+        padding: 15px;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .minus:hover, .plas:hover {
+        background: rgb(246, 246, 246);
+    }
+}
+.countWrapper {
+    margin: 0px 7px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+
+    input {
+        padding: 0 5px;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #555555;
+        border-radius: 16px;
+    }
+}

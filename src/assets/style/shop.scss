@@ -1,0 +1,58 @@
+.shop, .admin, .basket, .mainPage {
+    .container {
+        padding: 58px 15px;
+    }
+}
+.item {
+    .container {
+        max-width: 1154px;
+        padding: 58px 10px;
+
+    }
+}
+.auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.basket {
+    .basketWrapper {
+        padding: 40px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .footerBasket {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        .basketOrder {
+            flex: 1 1 50%;
+
+        }
+        .basketDescript {
+            flex: 1 1 50%;
+        }
+    }
+}
+.shop {
+    .icon-arrow {
+        display: inline-block;
+        padding: 5px;
+        font-size: 7px;
+        color: #555555;
+        line-height: 16px;
+        cursor: pointer;
+    }
+    .itemsList {
+        overflow: hidden;
+        display: none;
+        padding: 10px;
+    }
+    .itemsList.active{
+        display: flex;
+        flex-direction: column;
+    }
+}

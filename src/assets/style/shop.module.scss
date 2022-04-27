@@ -1,0 +1,74 @@
+.shopWrapper {
+    margin-top: 35px;
+    display: flex;
+
+    .navColumn {
+        flex: 0 0 250px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .itemsColumn {
+        flex: 1 1 auto;
+        display: grid;
+        grid-template-columns:214px 214px 214px 214px;
+        grid-template-rows: 1fr;
+        row-gap: 25px;
+        column-gap: 25px;
+        @media (max-width: 1200px) {
+            grid-template-columns: 214px 214px 214px;
+        }
+        @media (max-width: 970px) {
+            grid-template-columns: 214px 214px;
+        }
+    }
+}
+.titleNav {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 161.2%;
+    text-transform: uppercase;
+    color: #686868;
+    margin-bottom: 12px;
+}
+.titleType, .titleBrand {
+    display: flex;
+    flex-direction: column;
+    li {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 161.2%;
+        color: #555555;
+    }
+    li::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 1px;
+        width: 0%;
+        background: #d6d6d6;
+        transition: all .2s linear;
+    }
+    li:hover::before{
+        width: 100%;
+    }
+    
+    
+}
+.titleTypeItem {
+    display: flex;
+    span {
+        line-height: 161.2%;
+        color: #555555;
+    }
+    
+}
+.icon-arrow {
+    cursor: pointer;
+}
+

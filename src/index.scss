@@ -1,0 +1,24 @@
+@use './assets/style/_null.scss';
+@use './assets/style/_fonts.scss';
+@use './assets/style/_icon-fonts.scss';
+@use './assets/style/_container.scss';
+
+@use './assets/style/header.scss';
+@use './assets/style/shop.scss';
+@use './assets/style/footer.scss';
+@use './App.scss';
+
+body {
+  font-family: Montserrat;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.body {
+  height: 500px;
+}
+.auto-flex {
+  flex: 1 1 auto;
+}
+
+

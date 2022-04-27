@@ -1,0 +1,34 @@
+.menu {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    .menuLink {
+        padding: 5px;
+        font-weight: 500;
+        line-height: 96.7%;
+        letter-spacing: 0.02em;
+        color: #ACACAC;
+        transition: all linear .1s;
+        
+    }
+    .menuLink:hover {
+        color: #555555;
+    }
+}
+.menuFooter {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    .menuLink {
+        padding: 5px;
+        font-weight: 500;
+        line-height: 96.7%;
+        letter-spacing: 0.02em;
+        color: #ffffffa6;
+        transition: all linear .1s;
+        
+    }
+    .menuLink:hover {
+        color: #ffffff;
+    }
+}

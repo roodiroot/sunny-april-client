@@ -1,0 +1,76 @@
+
+.buttonBg {
+    display: inline-block;
+    border-radius: 1.28em;
+    background: #FFCC16;
+    border: 2px solid #FFCC16;
+    overflow: hidden;
+    transition: all .1s linear;
+        .button {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            padding: 0.7em 1.5em;
+            border-radius: 1.28em;
+            .icon::before {
+                margin-right: 0.4em;
+                font-size: 16px;
+            }
+        }
+}
+.buttonBg:hover {
+    background: #ecbb07;
+}
+.buttonBorder {
+    display: inline-block;
+    border: 2px solid #FFCC16;
+    border-radius: 1.28em;
+    overflow: hidden;
+    transition: all .1s linear;
+        .button {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            color: #FFCC16;
+            padding: 0.7em 1.5em;
+            border-radius: 1.28em;
+            .icon::before {
+                margin-right: 0.4em;
+                font-size: 16px;
+            }
+        }
+    
+}
+.buttonBorder:hover {
+    background: #fffcef;
+}
+.buttonShwarc {
+    display: inline-block;
+    border: 2px solid #555555;
+    border-radius: 1.28em;
+    overflow: hidden;
+    transition: all .1s linear;
+        .button {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            color: #555555;
+            padding: 0.9em 1.5em;
+            border-radius: 1.28em;
+            .icon::before {
+                margin-right: 0.4em;
+                font-size: 16px;
+            }
+        }
+    
+}
+.buttonShwarc:hover {
+    background: #acacac;
+}

@@ -1,0 +1,31 @@
+.table {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 99.2%;
+    letter-spacing: 0.03em;
+    color: #555555;
+    min-width: 395px;
+    @media(max-width: 420px) {
+        min-width: 300px;
+    }
+    @media(max-width: 350px) {
+        min-width: 280px;
+    }
+    .row{
+        border-bottom: 1px #C4C4C4 solid;
+    }
+    
+
+    .title {
+        padding: 10px 15px;
+        // border-bottom: 1px #C4C4C4 solid;
+
+    }
+    .description {
+        padding: 10px 15px;
+        text-align: end;
+        // border-bottom: 1px #C4C4C4 solid;
+    }
+    border-bottom: 1px #C4C4C4 solid;
+}

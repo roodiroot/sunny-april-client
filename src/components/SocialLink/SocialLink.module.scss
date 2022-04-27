@@ -1,0 +1,17 @@
+.socialLink {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #c4c4c4;
+    cursor: pointer;
+    transition: all linear .1s;
+    [class^="icon-"]::before, [class*=" icon-"]::before {
+        color: #555555;
+        font-size: 35px;
+    }
+    
+}
+.socialLink:hover {
+    background: #ffffff;
+}

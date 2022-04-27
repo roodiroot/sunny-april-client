@@ -1,0 +1,22 @@
+.inputWrapper {
+    border-bottom: 1px #C4C4C4 solid;
+    .input {
+        width: 100%;
+        height: 100%;
+        padding: 0.6em 1em;
+        color: #555555;
+    } 
+    .input::placeholder {
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 1em;
+        color: #ACACAC;
+
+    }
+}
+.input:focus {
+    box-shadow: 0 4px 5px #fff8e0c4;
+    // border-bottom: 1px #FFCC16 solid;
+}
+

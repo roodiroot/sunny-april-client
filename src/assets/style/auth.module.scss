@@ -1,0 +1,42 @@
+.content {
+    width: 32em;
+    margin: 0 auto;
+    padding: 5.5em 3.4em;
+    text-align: center;
+    .header {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4em;
+        line-height: 99.2%;
+        color: #353535;
+        margin-bottom: 22px;
+
+    }
+    .diskription {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 161.2%;
+        text-align: center;
+        color: #303030;
+        margin-bottom: 47px;
+    }
+    .diskriptionSpan {
+        color: #FFCC16;
+        transition: all .2s linear;
+    }
+    .diskriptionSpan:hover {
+        text-decoration: underline;
+    }
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 47px;
+
+}
+.inputWrapper {
+
+}

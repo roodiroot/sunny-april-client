@@ -1,0 +1,30 @@
+.iconsProject {
+    position: relative;
+    color: #ACACAC;
+    font-size: 16px;
+    align-items: center;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    transition: all linear .1s;
+    text-align: center;
+
+    cursor: pointer;
+    .basketCount {
+        width: 16px;
+        height: 16px;
+        background: #ED6161;
+        border-radius: 8px;
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        transform: translate(15%, 0%);
+        text-align: center;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 16px;
+    }
+}
+.iconsProject:hover {
+    background: rgb(246, 245, 245);
+}

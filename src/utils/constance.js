@@ -1,0 +1,9 @@
+export const LOGIN_ROUTE = '/login';
+export const REGISTRATION_ROUTE = '/registration';
+export const MAIN_ROUTE = '/';
+export const SHOP_ROUTE = '/shop';
+export const ITEM_ROUTE = '/item';
+export const ADMIN_ROUTE = '/admin';
+export const BASKET_ROUTE = '/basket';
+export const CONTACTS_ROUTE = '/contacts';
+export const ABOUT_ROUTE = '/abaut';
